@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA31C1A1FACC39F0024A710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA31C191FACC39F0024A710 /* AppDelegate.swift */; };
+		CEA31C1C1FACC39F0024A710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA31C1B1FACC39F0024A710 /* ViewController.swift */; };
+		CEA31C1F1FACC39F0024A710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA31C1D1FACC39F0024A710 /* Main.storyboard */; };
+		CEA31C221FACC39F0024A710 /* Party_On_Rock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA31C201FACC39F0024A710 /* Party_On_Rock.xcdatamodeld */; };
+		CEA31C241FACC39F0024A710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA31C231FACC39F0024A710 /* Assets.xcassets */; };
+		CEA31C271FACC39F0024A710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA31C251FACC39F0024A710 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEA31C161FACC39F0024A710 /* Party-On-Rock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party-On-Rock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA31C191FACC39F0024A710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA31C1B1FACC39F0024A710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA31C1E1FACC39F0024A710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA31C211FACC39F0024A710 /* Party_On_Rock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Party_On_Rock.xcdatamodel; sourceTree = "<group>"; };
+		CEA31C231FACC39F0024A710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA31C261FACC39F0024A710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA31C281FACC39F0024A710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA31C131FACC39F0024A710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA31C0D1FACC39F0024A710 = {
+			isa = PBXGroup;
+			children = (
+				CEA31C181FACC39F0024A710 /* Party-On-Rock */,
+				CEA31C171FACC39F0024A710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA31C171FACC39F0024A710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA31C161FACC39F0024A710 /* Party-On-Rock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA31C181FACC39F0024A710 /* Party-On-Rock */ = {
+			isa = PBXGroup;
+			children = (
+				CEA31C191FACC39F0024A710 /* AppDelegate.swift */,
+				CEA31C1B1FACC39F0024A710 /* ViewController.swift */,
+				CEA31C1D1FACC39F0024A710 /* Main.storyboard */,
+				CEA31C231FACC39F0024A710 /* Assets.xcassets */,
+				CEA31C251FACC39F0024A710 /* LaunchScreen.storyboard */,
+				CEA31C281FACC39F0024A710 /* Info.plist */,
+				CEA31C201FACC39F0024A710 /* Party_On_Rock.xcdatamodeld */,
+			);
+			path = "Party-On-Rock";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA31C151FACC39F0024A710 /* Party-On-Rock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA31C2B1FACC39F0024A710 /* Build configuration list for PBXNativeTarget "Party-On-Rock" */;
+			buildPhases = (
+				CEA31C121FACC39F0024A710 /* Sources */,
+				CEA31C131FACC39F0024A710 /* Frameworks */,
+				CEA31C141FACC39F0024A710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Party-On-Rock";
+			productName = "Party-On-Rock";
+			productReference = CEA31C161FACC39F0024A710 /* Party-On-Rock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA31C0E1FACC39F0024A710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MacBook Air";
+				TargetAttributes = {
+					CEA31C151FACC39F0024A710 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEA31C111FACC39F0024A710 /* Build configuration list for PBXProject "Party-On-Rock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA31C0D1FACC39F0024A710;
+			productRefGroup = CEA31C171FACC39F0024A710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA31C151FACC39F0024A710 /* Party-On-Rock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA31C141FACC39F0024A710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA31C271FACC39F0024A710 /* LaunchScreen.storyboard in Resources */,
+				CEA31C241FACC39F0024A710 /* Assets.xcassets in Resources */,
+				CEA31C1F1FACC39F0024A710 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA31C121FACC39F0024A710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA31C221FACC39F0024A710 /* Party_On_Rock.xcdatamodeld in Sources */,
+				CEA31C1C1FACC39F0024A710 /* ViewController.swift in Sources */,
+				CEA31C1A1FACC39F0024A710 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA31C1D1FACC39F0024A710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA31C1E1FACC39F0024A710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA31C251FACC39F0024A710 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA31C261FACC39F0024A710 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA31C291FACC39F0024A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA31C2A1FACC39F0024A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA31C2C1FACC39F0024A710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Party-On-Rock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "universal.Party-On-Rock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEA31C2D1FACC39F0024A710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Party-On-Rock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "universal.Party-On-Rock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA31C111FACC39F0024A710 /* Build configuration list for PBXProject "Party-On-Rock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA31C291FACC39F0024A710 /* Debug */,
+				CEA31C2A1FACC39F0024A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA31C2B1FACC39F0024A710 /* Build configuration list for PBXNativeTarget "Party-On-Rock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA31C2C1FACC39F0024A710 /* Debug */,
+				CEA31C2D1FACC39F0024A710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEA31C201FACC39F0024A710 /* Party_On_Rock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEA31C211FACC39F0024A710 /* Party_On_Rock.xcdatamodel */,
+			);
+			currentVersion = CEA31C211FACC39F0024A710 /* Party_On_Rock.xcdatamodel */;
+			path = Party_On_Rock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEA31C0E1FACC39F0024A710 /* Project object */;
+}
